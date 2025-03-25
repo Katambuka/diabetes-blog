@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
+// next.config.js
 const nextConfig = {
-  output: 'export', 
-  trailingSlash: true, 
-  images: {
-    unoptimized: true, 
-  },
+  output: 'export',
+  trailingSlash: true,
+  basePath: '/diabetes-blog', 
+  images: { unoptimized: true }
 
 };
 
